@@ -1,0 +1,25 @@
+/* Styles for dinoflex_apps_v1_blank_template only */
+
+.div_align{
+    text-align: left;
+}
+.div_display{
+    display: none;
+}
+.row_margin{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+body {
+        
+	background-image: url('../images/backgroundtexture.jpg');
+	background-repeat: repeat;
+	font-family: Nunito, Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size:16px;
+	
+	line-height: 1.5;
+	margin: 0;
+}

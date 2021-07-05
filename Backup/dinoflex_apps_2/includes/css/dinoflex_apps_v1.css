@@ -1,0 +1,51 @@
+
+.maincontent{
+   padding-top: 15px;
+  
+}
+
+
+.flashdata_message{
+
+   font-size: 25px;
+   font-weight: normal;
+}
+
+.label{ 
+   font-weight: normal;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+   margin-top: 0;
+   color: #595959;
+}
+
+h1
+{
+   font-size: 34px;
+}
+
+h2
+{
+   font-size: 30px;
+}
+
+h3
+{
+   font-size: 26px;
+}
+
+
+.nowrap{
+   white-space: nowrap;
+}
+
+
+dl {
+   margin-bottom: 0;
+}
+dd {
+   padding-bottom: 10px;
+}
+

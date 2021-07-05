@@ -1,0 +1,40 @@
+<IfModule mod_rewrite.c>
+  	RewriteEngine On
+	#based on protocol
+RewriteCond %{REQUEST_URI} ^(.*)  
+RewriteCond %{HTTPS} !on   
+RewriteRule ^(.*)$ https://dinoflex.com/$1 [R=301,L]
+	#RewriteBase /New_color_innovator/
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule (.*) index.php/$1
+</IfModule>
+
+
+redirect 301 /products/high-impact-2/ https://dinoflex.com/products/high-impact
+redirect 301 /products/cushion-walk-pavers/ https://dinoflex.com/products/indoor-products
+redirect 301 /products/natures_collection/ https://dinoflex.com/products/natures-collection
+redirect 301 /products/walk-soft-2/ https://dinoflex.com/products/walk-soft
+redirect 301 /products/vulca-no-sport-mat/ https://dinoflex.com/products/vulca-no-sport
+redirect 301 /products/dinoturf/ https://dinoflex.com/products/dino-turf
+redirect 301 /products/dino-care/ https://dinoflex.com/products/dinocare-products
+redirect 301 /dinoflex-helps-canadian-team-place-2018-solar-decathlon/ https://dinoflex.com/
+redirect 301 /dinoflex-mentioned-in-azure-magazine/ https://dinoflex.com/
+redirect 301 /innovative-idea-using-dinoflex-flooring/ https://dinoflex.com/
+redirect 301 /3-recycled-rubber-flooring-facts-you-should-have-known-yesterday/ https://dinoflex.com/
+redirect 301 /visit-us-at-aia-conference-on-architecture-booth-3677/ https://dinoflex.com/
+redirect 301 /category/blog/ https://dinoflex.com/
+redirect 301 /author/dinoflex_admin/ https://dinoflex.com/
+redirect 301 /author/rylee_dinoflex/ https://dinoflex.com/
+redirect 301 /news/ https://dinoflex.com/
+redirect 301 /our-work/ https://dinoflex.com/
+redirect 301 /sustainability/ https://dinoflex.com/
+redirect 301 /products/interlocking-tile/ https://dinoflex.com/products/
+redirect 301 /wp-content/uploads/ https://dinoflex.com/resources/
+redirect 301 /dinoflex_apps_1/sample/form https://dinoflex.com/request
+redirect 301 /dinoflex_apps_1/color_picker/color_finder https://dinoflex.com/color_finder/index/13
+redirect 301 /dinoflex_apps_1/mixomatic/privacy_policy https://dinoflex.com/color-innovator
+redirect 301 http://dinoflex.com/dinoflex_apps_1/mixomatic/ https://dinoflex.com/color-innovator
+
+
+Options -Indexes

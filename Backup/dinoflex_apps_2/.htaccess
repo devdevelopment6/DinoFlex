@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|includes|jquery\.cookie\.js)
+RewriteRule ^(.*)$ /dinoflex_apps_2/index.php?/$1 [L]

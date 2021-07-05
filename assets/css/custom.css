@@ -1,0 +1,15 @@
+.wrapper
+{
+	/*height: 787px !important;*/
+}
+input { border: 1px solid black; margin-bottom: .5em;  }
+input.error { border: 1px solid red; }
+label.error {
+	color : red;
+	margin-left: .3em;
+}
+label.valid {
+	display: block;
+	width: 16px;
+	height: 16px;
+}
